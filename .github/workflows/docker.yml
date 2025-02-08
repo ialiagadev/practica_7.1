@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+  GNU nano 7.2                                docker.yml                                         name: Build and Push Docker Image
 
 on:
   push:
@@ -35,3 +35,7 @@ jobs:
           tags: |
             ialiagadev/practica_7.1:latest
             ghcr.io/ialiagadev/practica_7.1:latest
+
+
+
+
